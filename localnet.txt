@@ -1,0 +1,40 @@
++++++  iwconfig  ++++++
+enxe84e06321e09  IEEE 802.11bgn  ESSID:"nomoresecrets2"  Nickname:"<WIFI@REALTEK>"
+          Mode:Managed  Frequency:2.412 GHz  Access Point: 00:1F:3F:A0:E0:7E   
+          Bit Rate:150 Mb/s   Sensitivity:0/0  
+          Retry:off   RTS thr:off   Fragment thr:off
+          Encryption key:****-****-****-****-****-****-****-****   Security mode:open
+          Power Management:off
+          Link Quality=100/100  Signal level=97/100  Noise level=0/100
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
++++++  ifconfig  ++++++
+enxe84e06321e09: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.16.1.171  netmask 255.255.255.0  broadcast 172.16.1.255
+        inet6 fe80::ea4e:6ff:fe32:1e09  prefixlen 64  scopeid 0x20<link>
+        ether e8:4e:06:32:1e:09  txqueuelen 1000  (Ethernet)
+        RX packets 411382  bytes 101417439 (96.7 MiB)
+        RX errors 0  dropped 128  overruns 0  frame 0
+        TX packets 45852  bytes 5663760 (5.4 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether b8:27:eb:2d:9b:3e  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 0  (Lokale Schleife)
+        RX packets 21970  bytes 6157226 (5.8 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 21970  bytes 6157226 (5.8 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
++++++  uptime/uname +++
+Linux kali 3.18.16-v7 #1 SMP PREEMPT Thu Jan 28 17:34:57 CST 2016 armv7l GNU/Linux
+ 15:31:19 up 1 day,  2:04,  1 user,  load average: 0,06, 0,11, 0,17
